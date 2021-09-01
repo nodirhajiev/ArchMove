@@ -387,7 +387,6 @@ h3 {
 
 .partners_list_box {
   margin: 0 20px;
-
 }
 
 footer {
@@ -437,15 +436,29 @@ footer ul li a {
     display: block;
   }
 
-  .partners_list{
+  .partners_list {
     margin: 20px;
     flex-wrap: wrap;
   }
 
-  .navbar_logo{
+  .navbar_logo {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+  }
+
+  .showcase_content {
+    flex-wrap: wrap;
+  }
+
+  .showcase_content img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .showcase_content button {
+    margin-bottom: 20px;
   }
 }
 
@@ -457,14 +470,33 @@ footer ul li a {
     flex-direction: column;
   }
 
-  .partners_list{
+  .partners_list {
     margin: 20px;
     flex-wrap: wrap;
   }
 }
 
-@media (max-width: 600px){
-  footer ul{
+@media (max-width: 716px) {
+  .dream_content {
+    flex-flow: wrap;
+  }
+
+  .dream_img img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .needs_content img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  footer ul {
     flex-wrap: wrap;
   }
 }
