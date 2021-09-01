@@ -387,6 +387,7 @@ h3 {
 
 .partners_list_box {
   margin: 0 20px;
+
 }
 
 footer {
@@ -424,7 +425,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1012px) {
   .navbar_left ul,
   .navbar_right {
     display: none;
@@ -435,6 +436,17 @@ footer ul li a {
   .navbar_left_menu {
     display: block;
   }
+
+  .partners_list{
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
+  .navbar_logo{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 768px) {
@@ -443,5 +455,16 @@ footer ul li a {
   }
   .needs_content {
     flex-direction: column;
+  }
+
+  .partners_list{
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px){
+  footer ul{
+    flex-wrap: wrap;
   }
 }
